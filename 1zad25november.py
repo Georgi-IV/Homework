@@ -1,4 +1,4 @@
-# без рекурсия
+#tazi funkciq subirva vsichki chisla v spisyk
 def sum(numbers):
     total = 0
     for number in numbers:
@@ -6,7 +6,7 @@ def sum(numbers):
     return total
 print(sum([1, 2, 3, 4, 5]))
 
-# с рекурсия
+#tazi funkciq subirva vsichki chisla v spisyk s rekursiq
 def recursive(numbers):
     if not numbers:
         return 0

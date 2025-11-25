@@ -1,4 +1,4 @@
-#без рекурсия
+#tazi funkciq izchisliava n-toto chislo ot fibonachievata redica
 def fibonacci(n):
     if n<=0:
         return 0
@@ -8,7 +8,7 @@ def fibonacci(n):
         return fibonacci(n-1)+fibonacci(n-2)
 print(fibonacci(10))
 
-#с рекурсия
+#tazi funkciq izchisliava n-toto chislo ot fibonachievata redica s rekursiq
 def recursive(n, a=0, b=1):
     if n==0:
         return a
